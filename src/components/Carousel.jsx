@@ -1,16 +1,18 @@
 import { useState, useEffect } from "react";
 import React from "react";
+import events from "../assets/events.jpg";
+import campus from "../assets/campus.webp"; // Assuming you have a JSON file with event data
 
 const Carousel = () => {
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070",
+      image: events,
       title: "Stay Connected.",
       subtitle: "Your journey with KCMT doesn't end at graduation—this is where it grows",
       accent: "orange"
     },
     {
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086",
+      image: campus,
       title: "Where Alumni Inspire the Future",
       subtitle: "Connect, mentor, network, and shape the next chapter of KCMT.",
       accent: "blue"
