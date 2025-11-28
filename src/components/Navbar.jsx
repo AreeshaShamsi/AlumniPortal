@@ -9,7 +9,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <nav className="bg-transparent border-b border-gray-200 px-4 sm:px-6 py-4 w-full mb-6">
+    <nav className="bg-transparent border-b border-gray-200 px-4 sm:px-6 py-4 w-full ">
       <div className="flex justify-between items-center">
 
         {/* Logo Section */}
