@@ -26,12 +26,10 @@ const HeroSection = () => {
       <div className="absolute top-[25%] right-[35%] w-2 h-2 md:w-3 md:h-3 bg-blue-700 rounded-full animate-ping"></div>
       <div className="absolute bottom-[40%] left-[30%] w-2 h-2 md:w-3 md:h-3 bg-blue-900 rounded-full animate-ping" style={{animationDelay: '1.5s'}}></div>
 
-      {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 max-w-6xl mx-auto">
-        {/* Modern Badge - Responsive text */}
-        <div className="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 bg-gradient-to-r from-blue-700 to-blue-900 text-white rounded-full mb-6 md:mb-8 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-          <span className="text-[10px] md:text-xs font-bold uppercase tracking-wider">🚀 MCA Alumni Network</span>
-        </div>
+      {/* Content - Moved up towards navbar */}
+      <div className="relative z-10 text-center px-4 sm:px-6 max-w-6xl mx-auto -mt-16 sm:-mt-20 md:-mt-24 lg:-mt-28">
+      
+      
 
         {/* Bold Heading - Much better mobile scaling */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black leading-none tracking-tight mb-4 md:mb-6">
@@ -40,6 +38,7 @@ const HeroSection = () => {
             AlumniHub
           </span>
         </h1>
+
 
         {/* Punchy Tagline - Better mobile size */}
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-8 md:mb-12">
